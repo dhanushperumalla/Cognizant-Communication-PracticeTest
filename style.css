@@ -80,6 +80,17 @@ header h1 {
     font-size: 1.1em;
 }
 
+.welcome-card .browser-warning {
+    display: inline-block;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
 .welcome-card ul {
     list-style: none;
     text-align: left;
