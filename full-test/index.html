@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Test</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Full Communication Test</h1>
+            <div class="test-info" id="test-info" style="display: none;">
+                <span id="section-counter">Section</span>
+                <div class="timer" id="timer">Time: 00:00</div>
+            </div>
+        </header>
+
+        <main>
+            <div id="start-screen" class="screen active">
+                <div class="welcome-card">
+                    <h2>Start Full Test</h2>
+                    <ul>
+                        <li>Section A: 15 Speak Aloud + 8 Repeat Audio</li>
+                        <li>Section B: 3 Topics (1 minute each)</li>
+                        <li>Section C: 20 Grammar Questions</li>
+                        <li>Section D: 3 Passages × 4 Questions</li>
+                    </ul>
+                    <div class="action-buttons">
+                        <button id="start-full-test" class="btn btn-success">Start Full Test (Fullscreen)</button>
+                        <a class="btn btn-secondary" href="../">Back Home</a>
+                    </div>
+
+                    <div style="display:none;">
+                        <button id="start-section-a"></button>
+                        <button id="start-section-b"></button>
+                        <button id="start-section-c"></button>
+                        <button id="start-section-d"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-a-screen" class="screen" style="display: none;">
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 id="section-a-title">Section A</h3>
+                        <p id="section-a-counter">Question 1 of 23</p>
+                    </div>
+
+                    <div id="section-a-prompt" class="answer-feedback" style="display: block;"></div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-a-play" class="btn btn-primary">Play Audio</button>
+                        <button id="section-a-record" class="btn btn-secondary">Record</button>
+                    </div>
+
+                    <div id="section-a-feedback" class="answer-feedback" style="display: none;"></div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-a-next" class="btn btn-primary">Next</button>
+                        <button id="section-a-finish" class="btn btn-success" style="display: none;">Finish Section A</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-b-screen" class="screen" style="display: none;">
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 id="section-b-title">Section B - Just a Minute</h3>
+                        <p id="section-b-counter">Topic 1 of 3</p>
+                    </div>
+
+                    <div class="answer-feedback" style="display: block;">
+                        <p id="section-b-topic"></p>
+                        <p id="section-b-time-left"><strong>Time Left:</strong> 60s</p>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-b-record" class="btn btn-primary">Start 1 Minute Recording</button>
+                    </div>
+
+                    <div id="section-b-feedback" class="answer-feedback" style="display: none;"></div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-b-next" class="btn btn-primary">Next</button>
+                        <button id="section-b-finish" class="btn btn-success" style="display: none;">Finish Section B</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-c-screen" class="screen" style="display: none;">
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 id="section-c-question">Question</h3>
+                        <p id="section-c-counter">Question 1 of 20</p>
+                        <p id="section-c-topic"></p>
+                    </div>
+
+                    <div class="options-container">
+                        <div class="option" data-option="0">
+                            <input type="radio" name="section-c-answer" id="section-c-option0" value="0">
+                            <label for="section-c-option0" id="section-c-label0">Option A</label>
+                        </div>
+                        <div class="option" data-option="1">
+                            <input type="radio" name="section-c-answer" id="section-c-option1" value="1">
+                            <label for="section-c-option1" id="section-c-label1">Option B</label>
+                        </div>
+                        <div class="option" data-option="2">
+                            <input type="radio" name="section-c-answer" id="section-c-option2" value="2">
+                            <label for="section-c-option2" id="section-c-label2">Option C</label>
+                        </div>
+                        <div class="option" data-option="3">
+                            <input type="radio" name="section-c-answer" id="section-c-option3" value="3">
+                            <label for="section-c-option3" id="section-c-label3">Option D</label>
+                        </div>
+                    </div>
+
+                    <div id="section-c-feedback" class="answer-feedback" style="display: none;"></div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-c-prev" class="btn btn-secondary">Previous</button>
+                        <button id="section-c-next" class="btn btn-primary">Next</button>
+                        <button id="section-c-finish" class="btn btn-success" style="display: none;">Finish Section C</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-d-screen" class="screen" style="display: none;">
+                <div class="question-card">
+                    <div class="question-header">
+                        <h3 id="section-d-title">Section D</h3>
+                        <p id="section-d-counter">Passage 1 - Question 1 of 4</p>
+                    </div>
+
+                    <div class="answer-feedback" style="display: block;">
+                        <p id="section-d-instruction">Listen to the passage audio and answer the question.</p>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-d-play" class="btn btn-primary">Play Passage Audio</button>
+                    </div>
+
+                    <h3 id="section-d-question"></h3>
+                    <div class="options-container">
+                        <div class="option" data-d-option="0">
+                            <input type="radio" name="section-d-answer" id="section-d-option0" value="0">
+                            <label for="section-d-option0" id="section-d-label0">Option A</label>
+                        </div>
+                        <div class="option" data-d-option="1">
+                            <input type="radio" name="section-d-answer" id="section-d-option1" value="1">
+                            <label for="section-d-option1" id="section-d-label1">Option B</label>
+                        </div>
+                        <div class="option" data-d-option="2">
+                            <input type="radio" name="section-d-answer" id="section-d-option2" value="2">
+                            <label for="section-d-option2" id="section-d-label2">Option C</label>
+                        </div>
+                        <div class="option" data-d-option="3">
+                            <input type="radio" name="section-d-answer" id="section-d-option3" value="3">
+                            <label for="section-d-option3" id="section-d-label3">Option D</label>
+                        </div>
+                    </div>
+
+                    <div class="navigation-buttons">
+                        <button id="section-d-next" class="btn btn-primary">Next</button>
+                        <button id="section-d-finish" class="btn btn-success" style="display: none;">Finish Section D</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="results-screen" class="screen" style="display: none;">
+                <div class="results-card">
+                    <h2 id="results-title">Section Completed</h2>
+                    <div class="score-display">
+                        <div class="score-circle" id="results-circle">
+                            <span id="results-percent">0%</span>
+                        </div>
+                        <div class="score-details">
+                            <p>Score: <span id="results-score">0</span> / <span id="results-total">0</span></p>
+                            <p>Percentage: <span id="results-percentage">0</span>%</p>
+                        </div>
+                    </div>
+                    <div id="full-test-summary" class="answer-feedback" style="display:none;"></div>
+                    <div class="action-buttons">
+                        <button id="results-next" class="btn btn-primary" style="display:none;">Continue</button>
+                        <button id="results-home" class="btn btn-secondary">Back to Home</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

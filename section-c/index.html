@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Section C</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Section C - Grammar</h1>
+      <div class="test-info" style="display:flex;">
+        <span id="counter">Question 1 of 20</span>
+        <div class="timer" id="timer">Time: 00:00</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="question-card">
+        <p><a href="../" class="btn btn-secondary">Home</a></p>
+        <div class="question-header">
+          <h3 id="question">Question</h3>
+          <p id="topic"></p>
+        </div>
+
+        <div class="options-container">
+          <div class="option" data-option="0"><input type="radio" name="ans" id="o0" value="0"><label for="o0" id="l0">A</label></div>
+          <div class="option" data-option="1"><input type="radio" name="ans" id="o1" value="1"><label for="o1" id="l1">B</label></div>
+          <div class="option" data-option="2"><input type="radio" name="ans" id="o2" value="2"><label for="o2" id="l2">C</label></div>
+          <div class="option" data-option="3"><input type="radio" name="ans" id="o3" value="3"><label for="o3" id="l3">D</label></div>
+        </div>
+
+        <div id="feedback" class="answer-feedback" style="display:none;"></div>
+
+        <div class="navigation-buttons">
+          <button id="prev-btn" class="btn btn-secondary">Previous</button>
+          <button id="next-btn" class="btn btn-primary">Next</button>
+          <button id="finish-btn" class="btn btn-success" style="display:none;">Finish</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="section-c.js"></script>
+</body>
+</html>

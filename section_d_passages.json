@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Passage 1",
+    "passage": "In recent years, many organizations have adopted hybrid work models. Employees now divide their time between home and office environments. This flexibility often improves work-life balance and reduces commuting stress. However, it also introduces challenges such as communication gaps, inconsistent collaboration, and difficulty maintaining team cohesion. Companies that succeed with hybrid work usually establish clear communication protocols, regular check-ins, and measurable performance outcomes.",
+    "questions": [
+      {
+        "question": "What is one benefit of hybrid work mentioned in the passage?",
+        "options": ["Higher office rent", "Improved work-life balance", "Longer commutes", "Reduced employee autonomy"],
+        "correct": 1
+      },
+      {
+        "question": "Which challenge is associated with hybrid work?",
+        "options": ["Better team cohesion", "Communication gaps", "Less flexibility", "Lower productivity by default"],
+        "correct": 1
+      },
+      {
+        "question": "What do successful companies implement?",
+        "options": ["Fewer meetings", "Strict office-only policy", "Clear communication protocols", "No performance tracking"],
+        "correct": 2
+      },
+      {
+        "question": "The main idea of the passage is that hybrid work",
+        "options": ["is always ineffective", "offers benefits but needs structure", "should replace all office work", "is only useful for large companies"],
+        "correct": 1
+      }
+    ]
+  },
+  {
+    "title": "Passage 2",
+    "passage": "Public transportation systems play a vital role in urban mobility. Efficient buses and metro services reduce traffic congestion and lower carbon emissions. Despite these advantages, many commuters still prefer private vehicles due to concerns about crowding and schedule reliability. To encourage wider adoption, city planners are investing in cleaner fleets, digital tracking applications, and integrated ticketing systems that simplify travel across multiple routes.",
+    "questions": [
+      {
+        "question": "What is a key advantage of public transport?",
+        "options": ["Increased fuel prices", "Reduced traffic congestion", "Higher parking demand", "Longer travel routes"],
+        "correct": 1
+      },
+      {
+        "question": "Why do some commuters avoid public transport?",
+        "options": ["Too many route options", "Concerns about crowding", "Lower emissions", "Digital tracking apps"],
+        "correct": 1
+      },
+      {
+        "question": "What are city planners investing in?",
+        "options": ["Private car subsidies", "Cleaner fleets and ticket integration", "Fewer metro lines", "Manual-only scheduling"],
+        "correct": 1
+      },
+      {
+        "question": "The passage mainly discusses",
+        "options": ["airport security", "urban farming", "public transportation improvements", "online shopping trends"],
+        "correct": 2
+      }
+    ]
+  },
+  {
+    "title": "Passage 3",
+    "passage": "Reading habits among students have changed with the rise of digital media. While printed books remain valuable for deep concentration, digital platforms provide quick access to diverse resources. Educators suggest combining both formats: students can use digital tools for research and printed texts for focused study sessions. This blended approach can improve comprehension, reduce screen fatigue, and help learners adapt to different academic tasks.",
+    "questions": [
+      {
+        "question": "According to the passage, printed books are valuable for",
+        "options": ["quick notifications", "deep concentration", "instant messaging", "social media updates"],
+        "correct": 1
+      },
+      {
+        "question": "What is a benefit of digital platforms?",
+        "options": ["Limited resources", "Quick access to diverse resources", "No need for research", "Reduced adaptability"],
+        "correct": 1
+      },
+      {
+        "question": "What do educators recommend?",
+        "options": ["Only printed books", "Only digital media", "A blended approach", "No reading outside class"],
+        "correct": 2
+      },
+      {
+        "question": "A blended approach may help students",
+        "options": ["avoid all exams", "reduce screen fatigue", "eliminate note-taking", "skip comprehension practice"],
+        "correct": 1
+      }
+    ]
+  }
+]

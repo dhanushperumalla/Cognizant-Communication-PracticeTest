@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Section B</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Section B - Just a Minute</h1>
+      <div class="test-info" style="display:flex;">
+        <span id="counter">Topic 1 of 3</span>
+        <div class="timer" id="timer">Time: 00:00</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="question-card">
+        <p><a href="../" class="btn btn-secondary">Home</a></p>
+        <div class="answer-feedback" style="display:block;">
+          <p id="topic"></p>
+          <p id="left"><strong>Time Left:</strong> 60s</p>
+        </div>
+
+        <div class="navigation-buttons">
+          <button id="record-btn" class="btn btn-primary">Start 1 Minute Recording</button>
+        </div>
+
+        <div id="feedback" class="answer-feedback" style="display:none;"></div>
+
+        <div class="navigation-buttons">
+          <button id="next-btn" class="btn btn-primary">Next</button>
+          <button id="finish-btn" class="btn btn-success" style="display:none;">Finish</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="section-b.js"></script>
+</body>
+</html>

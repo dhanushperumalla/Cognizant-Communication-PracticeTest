@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Section A</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Section A</h1>
+      <div class="test-info" style="display:flex;">
+        <span id="counter">Question 1 of 23</span>
+        <div class="timer" id="timer">Time: 00:00</div>
+      </div>
+    </header>
+
+    <main>
+      <div class="question-card">
+        <p><a href="../" class="btn btn-secondary">Home</a></p>
+        <div class="question-header">
+          <h3 id="prompt-title">Prompt</h3>
+        </div>
+
+        <div id="prompt-box" class="answer-feedback" style="display:block;"></div>
+
+        <div class="navigation-buttons">
+          <button id="play-btn" class="btn btn-primary">Play Audio</button>
+          <button id="record-btn" class="btn btn-secondary">Record</button>
+        </div>
+
+        <div id="feedback" class="answer-feedback" style="display:none;"></div>
+
+        <div class="navigation-buttons">
+          <button id="next-btn" class="btn btn-primary">Next</button>
+          <button id="finish-btn" class="btn btn-success" style="display:none;">Finish</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="section-a.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  { "type": "speak_aloud", "sentence": "The customer escalated the complaint despite receiving a partial refund." },
+  { "type": "speak_aloud", "sentence": "The project coordinator documented every milestone with remarkable precision." },
+  { "type": "speak_aloud", "sentence": "Her analytical reasoning helped the team identify hidden dependencies." },
+  { "type": "speak_aloud", "sentence": "The newly appointed supervisor encouraged transparent communication among peers." },
+  { "type": "speak_aloud", "sentence": "Consistent practice significantly improves articulation and verbal confidence." },
+  { "type": "speak_aloud", "sentence": "The proposal was accepted after extensive revisions and stakeholder feedback." },
+  { "type": "speak_aloud", "sentence": "A well-structured argument often persuades even skeptical decision makers." },
+  { "type": "speak_aloud", "sentence": "The logistics team coordinated deliveries across multiple regions efficiently." },
+  { "type": "speak_aloud", "sentence": "He acknowledged the oversight and immediately initiated corrective action." },
+  { "type": "speak_aloud", "sentence": "The orientation session clarified expectations, policies, and reporting channels." },
+  { "type": "speak_aloud", "sentence": "Customer satisfaction typically increases when support responses are prompt." },
+  { "type": "speak_aloud", "sentence": "Their collaborative mindset transformed conflict into constructive dialogue." },
+  { "type": "speak_aloud", "sentence": "The researcher presented observations in a concise yet impactful manner." },
+  { "type": "speak_aloud", "sentence": "Operational excellence depends on discipline, adaptability, and continuous learning." },
+  { "type": "speak_aloud", "sentence": "The recruitment panel evaluated communication, competence, and cultural alignment." },
+
+  { "type": "repeat_audio", "sentence": "The committee unanimously approved the revised compliance framework." },
+  { "type": "repeat_audio", "sentence": "By the time we arrived, the auditorium had already reached capacity." },
+  { "type": "repeat_audio", "sentence": "Although the deadline was strict, the team delivered with exceptional quality." },
+  { "type": "repeat_audio", "sentence": "The consultant recommended a phased rollout to reduce implementation risk." },
+  { "type": "repeat_audio", "sentence": "Her presentation balanced statistical evidence with practical business insights." },
+  { "type": "repeat_audio", "sentence": "The support engineer diagnosed the outage within a matter of minutes." },
+  { "type": "repeat_audio", "sentence": "Effective leadership requires empathy, accountability, and decisive action." },
+  { "type": "repeat_audio", "sentence": "After careful deliberation, the board postponed the policy announcement." }
+]
