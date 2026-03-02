@@ -52,6 +52,19 @@ class SectionDApp {
     window.speechSynthesis.cancel();
   }
 
+  applyStyle(selected, correct) {
+    const selectedEl = document.querySelector(`.option[data-option="${selected}"]`);
+    const correctEl = document.querySelector(`.option[data-option="${correct}"]`);
+    if (!selectedEl || !correctEl) return;
+
+    if (selected === correct) {
+      selectedEl.classList.add('option-correct', 'option-correct-answer');
+    } else {
+      selectedEl.classList.add('option-wrong');
+      correctEl.classList.add('option-correct-answer');
+    }
+  }
+
   render() {
     this.stopMedia();
     const p = this.passages[this.pIndex];
@@ -63,8 +76,14 @@ class SectionDApp {
 
     document.getElementById('play-btn').disabled = this.played[this.pIndex];
     document.querySelectorAll('input[name="ans"]').forEach(i => i.checked = false);
+    document.querySelectorAll('.option[data-option]').forEach(el => el.classList.remove('selected', 'option-correct', 'option-wrong', 'option-correct-answer'));
     const s = this.answers[this.pIndex][this.qIndex];
-    if (s !== null) document.getElementById(`o${s}`).checked = true;
+    if (s !== null) {
+      document.getElementById(`o${s}`).checked = true;
+      const selectedEl = document.querySelector(`.option[data-option="${s}"]`);
+      if (selectedEl) selectedEl.classList.add('selected');
+      this.applyStyle(s, q.correct);
+    }
 
     const isFinal = this.pIndex === this.passages.length - 1 && this.qIndex === p.questions.length - 1;
     document.getElementById('next-btn').style.display = isFinal ? 'none' : 'inline-block';
@@ -92,7 +111,14 @@ class SectionDApp {
   }
 
   select(i) {
+    const q = this.passages[this.pIndex].questions[this.qIndex];
     this.answers[this.pIndex][this.qIndex] = i;
+    document.querySelectorAll('.option[data-option]').forEach(el => el.classList.remove('selected', 'option-correct', 'option-wrong', 'option-correct-answer'));
+    const selectedEl = document.querySelector(`.option[data-option="${i}"]`);
+    if (selectedEl) selectedEl.classList.add('selected');
+    const inputEl = document.getElementById(`o${i}`);
+    if (inputEl) inputEl.checked = true;
+    this.applyStyle(i, q.correct);
   }
 
   next() {

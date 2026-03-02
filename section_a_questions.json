@@ -14,7 +14,6 @@
   { "type": "speak_aloud", "sentence": "The analyst summarized complex findings in language that everyone could follow." },
   { "type": "speak_aloud", "sentence": "Professional growth requires curiosity, resilience, and continuous skill development." },
   { "type": "speak_aloud", "sentence": "The interview panel assessed communication, reasoning, and decision-making ability." },
-
   { "type": "repeat_audio", "sentence": "The review committee endorsed the updated policy after a detailed discussion." },
   { "type": "repeat_audio", "sentence": "By the time we logged in, the virtual session had already started." },
   { "type": "repeat_audio", "sentence": "Although the timeline was tight, the team delivered a reliable solution." },
