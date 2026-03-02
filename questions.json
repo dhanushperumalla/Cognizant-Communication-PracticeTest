@@ -1,146 +1,146 @@
 [
   {
-    "question": "She ____ to the office by bus every day.",
-    "options": ["go", "goes", "going", "gone"],
+    "question": "She ____ a detailed report before the meeting started.",
+    "options": ["prepare", "prepared", "prepares", "preparing"],
     "correct": 1,
     "topic": "Verbs",
-    "explanation": "For third-person singular in simple present, use 'goes'."
+    "explanation": "Use simple past 'prepared' for a completed action in the past."
   },
   {
-    "question": "By the time we reached, the film ____.",
-    "options": ["starts", "started", "had started", "has started"],
-    "correct": 2,
-    "topic": "Verbs",
-    "explanation": "Past perfect 'had started' shows an action completed before another past action."
-  },
-  {
-    "question": "If he ____ harder, he would pass.",
-    "options": ["study", "studies", "studied", "studying"],
-    "correct": 2,
-    "topic": "Verbs",
-    "explanation": "Second conditional uses past simple in the if-clause: 'if he studied'."
-  },
-  {
-    "question": "They ____ in Chennai since 2020.",
-    "options": ["live", "lived", "are living", "have lived"],
+    "question": "By next month, they ____ the pilot phase.",
+    "options": ["complete", "completed", "will complete", "will have completed"],
     "correct": 3,
     "topic": "Verbs",
-    "explanation": "Use present perfect with 'since' for actions continuing from past to present."
+    "explanation": "Future perfect 'will have completed' shows completion before a future point."
+  },
+  {
+    "question": "If she ____ regularly, her fluency will improve.",
+    "options": ["practices", "practiced", "practice", "is practicing"],
+    "correct": 0,
+    "topic": "Verbs",
+    "explanation": "First conditional uses present simple in the if-clause."
+  },
+  {
+    "question": "We ____ this software since last year.",
+    "options": ["use", "used", "have used", "are using"],
+    "correct": 2,
+    "topic": "Verbs",
+    "explanation": "Present perfect is used with 'since' for ongoing duration."
   },
 
   {
-    "question": "He bought ____ umbrella because it was raining.",
+    "question": "He gave me ____ useful suggestion during the review.",
     "options": ["a", "an", "the", "no article"],
-    "correct": 1,
+    "correct": 0,
     "topic": "Articles",
-    "explanation": "Use 'an' before words beginning with a vowel sound, like umbrella."
+    "explanation": "Use 'a' before consonant sounds, including 'useful' (yoo-sound)."
   },
   {
-    "question": "____ Ganga is considered sacred.",
+    "question": "____ Nile is one of the longest rivers in the world.",
     "options": ["A", "An", "The", "No article"],
     "correct": 2,
     "topic": "Articles",
     "explanation": "Use 'the' with names of rivers."
   },
   {
-    "question": "She is ____ honest employee.",
+    "question": "She is ____ MBA graduate from a reputed institute.",
     "options": ["a", "an", "the", "no article"],
     "correct": 1,
     "topic": "Articles",
-    "explanation": "'Honest' starts with a vowel sound, so use 'an'."
+    "explanation": "Use 'an' before vowel sounds; 'MBA' starts with an 'em' sound."
   },
   {
-    "question": "I saw ____ moon clearly last night.",
+    "question": "We visited ____ museum near the city center.",
     "options": ["a", "an", "the", "no article"],
     "correct": 2,
     "topic": "Articles",
-    "explanation": "Use 'the' for unique objects like the moon."
+    "explanation": "Use 'the' when referring to a specific, known place."
   },
 
   {
-    "question": "She is interested ____ machine learning.",
-    "options": ["on", "in", "at", "for"],
-    "correct": 1,
+    "question": "He apologized ____ the inconvenience caused.",
+    "options": ["for", "to", "with", "on"],
+    "correct": 0,
     "topic": "Prepositions",
-    "explanation": "The correct phrase is 'interested in'."
+    "explanation": "The correct expression is 'apologized for'."
   },
   {
-    "question": "The train arrived ____ the station on time.",
-    "options": ["in", "at", "on", "to"],
-    "correct": 1,
-    "topic": "Prepositions",
-    "explanation": "Use 'at' for a specific point/place such as a station."
-  },
-  {
-    "question": "He has been waiting ____ two hours.",
-    "options": ["since", "for", "from", "by"],
-    "correct": 1,
-    "topic": "Prepositions",
-    "explanation": "Use 'for' with duration of time."
-  },
-  {
-    "question": "The keys are ____ the drawer.",
-    "options": ["on", "at", "in", "over"],
+    "question": "The seminar starts ____ 10:30 a.m. sharp.",
+    "options": ["in", "on", "at", "by"],
     "correct": 2,
     "topic": "Prepositions",
-    "explanation": "Use 'in' when something is enclosed by a space."
+    "explanation": "Use 'at' for specific times."
+  },
+  {
+    "question": "She has worked here ____ five years.",
+    "options": ["since", "for", "from", "during"],
+    "correct": 1,
+    "topic": "Prepositions",
+    "explanation": "Use 'for' with a period of time."
+  },
+  {
+    "question": "The report is ____ your desk for signature.",
+    "options": ["at", "on", "in", "into"],
+    "correct": 1,
+    "topic": "Prepositions",
+    "explanation": "Use 'on' for something placed atop a surface like a desk."
   },
 
   {
-    "question": "They completed the work. (Passive)",
-    "options": ["The work was completed by them.", "The work completed by them.", "The work is completed by them.", "The work had completed by them."],
+    "question": "The manager announced the results. (Passive)",
+    "options": ["The results were announced by the manager.", "The results announced by the manager.", "The results are announcing by the manager.", "The results had announce by the manager."],
     "correct": 0,
     "topic": "Active Passive",
-    "explanation": "Simple past active changes to simple past passive: was/were + past participle."
+    "explanation": "Simple past passive uses 'was/were + past participle'."
   },
   {
-    "question": "The letter was written by Meera. (Active)",
-    "options": ["Meera writes the letter.", "Meera wrote the letter.", "Meera has written the letter.", "Meera writing the letter."],
+    "question": "The email was sent by Riya. (Active)",
+    "options": ["Riya sends the email.", "Riya sent the email.", "Riya has send the email.", "Riya sending the email."],
     "correct": 1,
     "topic": "Active Passive",
-    "explanation": "Simple past passive converts to simple past active: 'Meera wrote the letter'."
+    "explanation": "Past passive converts to past active: 'Riya sent the email'."
   },
   {
-    "question": "People speak English worldwide. (Passive)",
-    "options": ["English is spoken worldwide.", "English spoken worldwide.", "English was spoken worldwide.", "English has spoken worldwide."],
+    "question": "They conduct audits every quarter. (Passive)",
+    "options": ["Audits are conducted every quarter.", "Audits conducted every quarter.", "Audits were conducted every quarter.", "Audits have conducting every quarter."],
     "correct": 0,
     "topic": "Active Passive",
-    "explanation": "Present simple passive is formed using 'is/am/are + past participle'."
+    "explanation": "Present simple passive uses 'is/am/are + past participle'."
   },
   {
-    "question": "Someone stole my bag. (Passive)",
-    "options": ["My bag stole.", "My bag was stolen.", "My bag is stolen.", "My bag had stolen."],
+    "question": "Someone closed the gate. (Passive)",
+    "options": ["The gate has closed.", "The gate was closed.", "The gate is closing.", "The gate had closing."],
     "correct": 1,
     "topic": "Active Passive",
-    "explanation": "Simple past passive form is 'was stolen'."
+    "explanation": "Simple past passive form is 'was closed'."
   },
 
   {
-    "question": "He said, \"I am tired.\" (Indirect)",
-    "options": ["He said that he is tired.", "He said that he was tired.", "He says that he was tired.", "He said he tired."],
+    "question": "He said, \"I can finish this today.\" (Indirect)",
+    "options": ["He said that he can finish this today.", "He said that he could finish that day.", "He says that he could finish that day.", "He said he could finished that day."],
     "correct": 1,
     "topic": "Direct Indirect",
-    "explanation": "Present tense in direct speech usually shifts to past in reported speech."
+    "explanation": "In reported speech, 'can' typically changes to 'could' and 'today' to 'that day'."
   },
   {
-    "question": "She said, \"I have finished the task.\" (Indirect)",
-    "options": ["She said she has finished the task.", "She said she had finished the task.", "She said she finished the task now.", "She says she had finished the task."],
+    "question": "She said, \"We are reviewing the plan.\" (Indirect)",
+    "options": ["She said they are reviewing the plan.", "She said they were reviewing the plan.", "She said they have reviewed the plan.", "She says they were reviewing plan."],
     "correct": 1,
     "topic": "Direct Indirect",
-    "explanation": "Present perfect generally changes to past perfect in reported speech."
+    "explanation": "Present continuous generally shifts to past continuous in reported speech."
   },
   {
-    "question": "Rahul said that he would call me. (Direct)",
-    "options": ["Rahul said, \"I will call you.\"", "Rahul said, \"I would call me.\"", "Rahul says, \"I will call me.\"", "Rahul said, \"He will call you.\""],
-    "correct": 0,
-    "topic": "Direct Indirect",
-    "explanation": "Correct pronoun and modal restoration gives: 'I will call you.'"
-  },
-  {
-    "question": "The teacher said, \"Do your homework.\" (Indirect)",
-    "options": ["The teacher said that do your homework.", "The teacher told us to do our homework.", "The teacher told us do your homework.", "The teacher says to do homework."],
+    "question": "Arun said that he had completed the assignment. (Direct)",
+    "options": ["Arun said, \"I completed the assignment.\"", "Arun said, \"I had completed the assignment.\"", "Arun says, \"He had completed the assignment.\"", "Arun said, \"I have completed assignment.\""],
     "correct": 1,
     "topic": "Direct Indirect",
-    "explanation": "Imperatives in indirect speech are reported with 'told + object + to + verb'."
+    "explanation": "Past perfect in indirect speech maps to 'had completed' in direct form here."
+  },
+  {
+    "question": "The coach said, \"Maintain your focus.\" (Indirect)",
+    "options": ["The coach told them maintain their focus.", "The coach told them to maintain their focus.", "The coach said that maintain your focus.", "The coach says to maintained focus."],
+    "correct": 1,
+    "topic": "Direct Indirect",
+    "explanation": "Imperative reporting uses 'told + object + to + verb'."
   }
 ]

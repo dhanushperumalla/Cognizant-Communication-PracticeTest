@@ -1,78 +1,78 @@
 [
   {
     "title": "Passage 1",
-    "passage": "In recent years, many organizations have adopted hybrid work models. Employees now divide their time between home and office environments. This flexibility often improves work-life balance and reduces commuting stress. However, it also introduces challenges such as communication gaps, inconsistent collaboration, and difficulty maintaining team cohesion. Companies that succeed with hybrid work usually establish clear communication protocols, regular check-ins, and measurable performance outcomes.",
+    "passage": "Many companies now use micro-learning programs to train employees. Instead of long classroom sessions, workers complete short lessons focused on one concept at a time. This method fits busy schedules and helps learners review topics repeatedly. However, organizations must still align these short modules with broader learning goals. Firms that implement micro-learning effectively usually track completion rates, assess real-world application, and update content regularly based on feedback.",
     "questions": [
       {
-        "question": "What is one benefit of hybrid work mentioned in the passage?",
-        "options": ["Higher office rent", "Improved work-life balance", "Longer commutes", "Reduced employee autonomy"],
+        "question": "What is a key feature of micro-learning mentioned in the passage?",
+        "options": ["Lengthy monthly workshops", "Short lessons on single concepts", "No learner feedback", "Mandatory full-day sessions"],
         "correct": 1
       },
       {
-        "question": "Which challenge is associated with hybrid work?",
-        "options": ["Better team cohesion", "Communication gaps", "Less flexibility", "Lower productivity by default"],
+        "question": "Why is micro-learning convenient for employees?",
+        "options": ["It eliminates all assessments", "It fits busy schedules", "It requires no planning", "It replaces all work tasks"],
         "correct": 1
       },
       {
-        "question": "What do successful companies implement?",
-        "options": ["Fewer meetings", "Strict office-only policy", "Clear communication protocols", "No performance tracking"],
-        "correct": 2
+        "question": "What do successful firms do with micro-learning content?",
+        "options": ["Keep it unchanged forever", "Update it regularly based on feedback", "Avoid measuring completion", "Use only printed manuals"],
+        "correct": 1
       },
       {
-        "question": "The main idea of the passage is that hybrid work",
-        "options": ["is always ineffective", "offers benefits but needs structure", "should replace all office work", "is only useful for large companies"],
-        "correct": 1
+        "question": "The main idea of the passage is that micro-learning",
+        "options": ["is useful but needs structured management", "should replace all training instantly", "works only for technical teams", "is ineffective in workplaces"],
+        "correct": 0
       }
     ]
   },
   {
     "title": "Passage 2",
-    "passage": "Public transportation systems play a vital role in urban mobility. Efficient buses and metro services reduce traffic congestion and lower carbon emissions. Despite these advantages, many commuters still prefer private vehicles due to concerns about crowding and schedule reliability. To encourage wider adoption, city planners are investing in cleaner fleets, digital tracking applications, and integrated ticketing systems that simplify travel across multiple routes.",
+    "passage": "Urban neighborhoods are increasingly adopting community gardens. These shared spaces provide fresh produce, improve local biodiversity, and encourage residents to interact more often. Yet such projects can struggle with water access, volunteer retention, and seasonal maintenance. Municipal support programs that provide training, small grants, and compost resources often help gardens remain active and productive throughout the year.",
     "questions": [
       {
-        "question": "What is a key advantage of public transport?",
-        "options": ["Increased fuel prices", "Reduced traffic congestion", "Higher parking demand", "Longer travel routes"],
+        "question": "What is one benefit of community gardens?",
+        "options": ["Higher fuel consumption", "Improved local biodiversity", "Reduced social interaction", "Less access to fresh produce"],
         "correct": 1
       },
       {
-        "question": "Why do some commuters avoid public transport?",
-        "options": ["Too many route options", "Concerns about crowding", "Lower emissions", "Digital tracking apps"],
+        "question": "Which issue can affect community garden projects?",
+        "options": ["Excess industrial output", "Volunteer retention", "Airport traffic", "Digital device shortages"],
         "correct": 1
       },
       {
-        "question": "What are city planners investing in?",
-        "options": ["Private car subsidies", "Cleaner fleets and ticket integration", "Fewer metro lines", "Manual-only scheduling"],
+        "question": "What support helps gardens stay productive?",
+        "options": ["Only private ownership", "Training, grants, and compost resources", "Removing all volunteers", "Banning seasonal planning"],
         "correct": 1
       },
       {
-        "question": "The passage mainly discusses",
-        "options": ["airport security", "urban farming", "public transportation improvements", "online shopping trends"],
-        "correct": 2
+        "question": "The passage mainly highlights",
+        "options": ["the role and challenges of community gardens", "online retail trends", "sports tournament planning", "automobile manufacturing"],
+        "correct": 0
       }
     ]
   },
   {
     "title": "Passage 3",
-    "passage": "Reading habits among students have changed with the rise of digital media. While printed books remain valuable for deep concentration, digital platforms provide quick access to diverse resources. Educators suggest combining both formats: students can use digital tools for research and printed texts for focused study sessions. This blended approach can improve comprehension, reduce screen fatigue, and help learners adapt to different academic tasks.",
+    "passage": "Students preparing for competitive exams often build study routines around weekly goals. Breaking large syllabi into smaller targets makes progress measurable and reduces stress. In addition, regular self-tests help identify weak areas before final exams. Mentors advise balancing intensive study with short breaks, sleep, and revision cycles so learners can maintain concentration over long preparation periods.",
     "questions": [
       {
-        "question": "According to the passage, printed books are valuable for",
-        "options": ["quick notifications", "deep concentration", "instant messaging", "social media updates"],
+        "question": "Why do students set weekly goals according to the passage?",
+        "options": ["To avoid revision", "To make progress measurable", "To increase stress", "To skip self-tests"],
         "correct": 1
       },
       {
-        "question": "What is a benefit of digital platforms?",
-        "options": ["Limited resources", "Quick access to diverse resources", "No need for research", "Reduced adaptability"],
+        "question": "What is the purpose of regular self-tests?",
+        "options": ["To replace final exams", "To identify weak areas early", "To reduce syllabus size", "To avoid mentoring"],
         "correct": 1
       },
       {
-        "question": "What do educators recommend?",
-        "options": ["Only printed books", "Only digital media", "A blended approach", "No reading outside class"],
-        "correct": 2
+        "question": "What do mentors recommend along with study time?",
+        "options": ["Continuous study without breaks", "Short breaks, sleep, and revision", "Eliminating weekly planning", "Only group study sessions"],
+        "correct": 1
       },
       {
-        "question": "A blended approach may help students",
-        "options": ["avoid all exams", "reduce screen fatigue", "eliminate note-taking", "skip comprehension practice"],
+        "question": "The core message of the passage is that exam preparation should be",
+        "options": ["unstructured and spontaneous", "balanced, planned, and reflective", "fully dependent on luck", "limited to final-week practice"],
         "correct": 1
       }
     ]
